@@ -1,0 +1,69 @@
+.App {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: rgb(199, 210, 199);
+  padding: 2em 1.5em;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+.form-sub_title {
+  margin-top: 0.5em;
+  font-size: 12px;
+}
+.form-label {
+  width: 4em;
+  flex: 1;
+}
+.form-input {
+  flex: 2;
+  margin: 0.5em 0;
+}
+
+.display-error {
+  position: absolute;
+  top: 5em;
+  width: 18em;
+  color: red;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.home-container {
+  padding: 0em 1em;
+}
+
+.profile-container {
+  display: flex;
+  width: 20em;
+  flex-direction: column;
+  border: 1px solid #513c3c;
+  padding: 0.5em;
+  margin-right: 1em;
+}
+
+.profile-main_container {
+  display: flex;
+}
